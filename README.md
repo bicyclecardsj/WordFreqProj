@@ -35,7 +35,7 @@ Streamlit과 KoNLPy를 활용하여 CSV 파일 형태의 한국어 텍스트 데
 
 | 1. CSV 파일 업로드 및 데이터 확인 | 2. 빈도수 막대그래프 시각화 | 3. 워드클라우드 시각화 |
 | :---: | :---: | :---: |
-| ![파일 업로드](https://github.com/user-attachments/assets/81ad07f0-7e81-4c7d-bbdd-185bc4abd717") | ![막대그래프](https://github.com/user-attachments/assets/49807628-a3a3-441d-b9f2-f455e811dd90) | ![워드클라우드](https://github.com/user-attachments/assets/3bfdc6fe-ffa0-42c7-868b-5f2a10cf2777") |
+| ![파일 업로드](https://github.com/user-attachments/assets/81ad07f0-7e81-4c7d-bbdd-185bc4abd717) | ![막대그래프](https://github.com/user-attachments/assets/49807628-a3a3-441d-b9f2-f455e811dd90) | ![워드클라우드](https://github.com/user-attachments/assets/3bfdc6fe-ffa0-42c7-868b-5f2a10cf2777) |
 
 ---
 
