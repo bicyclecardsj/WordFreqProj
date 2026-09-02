@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from matplotlib import font_manager, rc
 
-font_path = "./malgun.ttf"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+font_path = os.path.join(BASE_DIR, "malgun.ttf")
 font_name = font_manager.FontProperties(fname=font_path).get_name()
 rc('font', family=font_name)
 
