@@ -1,10 +1,10 @@
-# 📊 단어 빈도수 시각화 대시보드 (Word Frequency Visualization Dashboard)
+# 📊 단어 빈도수 시각화 대시보드
 
 Streamlit과 KoNLPy를 활용하여 CSV 파일 형태의 한국어 텍스트 데이터에서 키워드를 추출하고, 이를 막대그래프 및 워드클라우드로 시각화해 주는 웹 대시보드 서비스입니다.
 
 ---
 
-## 📌 주요 기능 (Key Features)
+## 📌 주요 기능
 
 * **CSV 파일 데이터 불러오기 & 미리보기**: 사용자가 원하는 CSV 파일을 업로드하고, 분석할 컬럼을 지정하여 파일 데이터를 미리 확인할 수 있습니다.
 * **한국어 자연어 처리 (NLP)**: KoNLPy의 `Okt` 형태소 분석기를 활용해 명사, 동사, 형용사 등 의미 있는 품사만 추출하고 불용어(Stopwords)를 제거합니다.
@@ -15,7 +15,7 @@ Streamlit과 KoNLPy를 활용하여 CSV 파일 형태의 한국어 텍스트 데
 
 ---
 
-## 🛠 기술 스택 (Tech Stack)
+## 🛠 기술 스택
 
 ### Environment
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -30,7 +30,21 @@ Streamlit과 KoNLPy를 활용하여 CSV 파일 형태의 한국어 텍스트 데
 
 ---
 
-## 📁 프로젝트 구조 (Project Structure)
+## 🚀 시작 가이드
+1. 사전 요구사항
+Python 3.8+
+
+Java (JDK 8 이상): KoNLPy 작동을 위해 필요하며 JAVA_HOME 환경변수 설정이 완료되어야 합니다.
+
+2. 패키지 설치
+pip install streamlit pandas matplotlib konlpy wordcloud
+
+3. 애플리케이션 실행
+streamlit run WordFreqDashboard.py
+
+---
+
+## 📁 프로젝트 구조
 
 ```text
 ├── mylib/
