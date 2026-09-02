@@ -40,16 +40,8 @@ Streamlit과 KoNLPy를 활용하여 CSV 파일 형태의 한국어 텍스트 데
 ---
 
 ## 🚀 시작 가이드
-1. 사전 요구사항
-Python 3.8+
-
-Java (JDK 8 이상): KoNLPy 작동을 위해 필요하며 JAVA_HOME 환경변수 설정이 완료되어야 합니다.
-
-2. 패키지 설치
-pip install streamlit pandas matplotlib konlpy wordcloud
-
-3. 애플리케이션 실행
-streamlit run WordFreqDashboard.py
+https://wordfreqproj-pjphty3y7dwbwdhtqparcq.streamlit.app/
+접속
 
 ---
 
